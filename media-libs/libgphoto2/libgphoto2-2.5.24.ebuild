@@ -157,7 +157,7 @@ multilib_src_install_all() {
 	prune_libtool_files --modules
 
 	einstalldocs
-	dodoc TESTERS MAINTAINERS HACKING
+	dodoc TESTERS MAINTAINERS 
 
 	if use examples; then
 		insinto /usr/share/doc/${PF}/examples
